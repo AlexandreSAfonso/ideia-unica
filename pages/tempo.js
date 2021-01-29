@@ -1,5 +1,6 @@
 import  Link from 'next/link';
 function Tempo(props) {
+    console.log('Passando pelo FrontEnd')
     const dynamicDate = new Date();
     const dynamicDateString = dynamicDate.toUTCString();
 
@@ -17,6 +18,7 @@ function Tempo(props) {
     )
 }
 export function getStaticProps(){
+    console.log('Passando pelo getStaticProps')
     const staticDate = new Date();
     const staticDateString = staticDate.toUTCString();
     return{
