@@ -3,7 +3,7 @@ function tempo(request, response){
 
     response.json({
         date: dynamicDate.toUTCString()
-    })
+    });
 }
 
 export default tempo;
