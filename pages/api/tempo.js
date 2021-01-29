@@ -1,7 +1,7 @@
 function tempo(request, response){
     const dynamicDate = new Date();
 
-    response.jason({
+    response.json({
         date: dynamicDate.toUTCString()
     })
 }
