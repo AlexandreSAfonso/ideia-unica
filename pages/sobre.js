@@ -5,10 +5,10 @@ import  Link from 'next/link';
 function Home(){
     return (
         <div>
-            <h2>Home do contador</h2>
+            <h2>Sobre</h2>
             <Contador />
-            <Link href="/sobre">
-                <a>Sobre</a>
+            <Link href="/">
+                <a>Home</a>
             </Link>
         </div>
         
