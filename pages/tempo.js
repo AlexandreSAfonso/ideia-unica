@@ -24,7 +24,8 @@ export function getStaticProps(){
     return{
         props:{
             staticDateString
-        }
+        },
+        //revalidate: 5 //indica o tempo minimo para atualização dos dados estáticos
     }
 }
 export default Tempo;
