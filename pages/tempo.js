@@ -11,7 +11,7 @@ function Tempo(props) {
             
             <div>
                 <Link href="/">
-                    <a>Home</a>
+                    Home
                 </Link>
             </div>
         </div>

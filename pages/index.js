@@ -8,10 +8,10 @@ function Home(){
             <h2>Home do contador</h2>
             <Contador />
             <Link href="/sobre">
-                <a>Sobre</a>
+                Sobr
             </Link>
             <Link href="/tempo">
-                <a>Tempo</a>
+                Tempo
             </Link>
 
         </div>
